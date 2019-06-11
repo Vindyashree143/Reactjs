@@ -1,0 +1,27 @@
+.item{
+    border:1px solid;
+    padding: 10px; 
+    border-color:black ;
+    margin-left: 450px;
+    margin-right: 480px;
+
+}
+input{
+  padding: 10px;
+  width: 300px;
+}
+.sign{
+    font-size: 20px;
+   margin-left: 20px;
+}
+.login{
+    background-color:green;
+    width: 325px;
+}
+p{
+    font-size: 10px;
+    margin-left: 100px;    
+}
+.account{
+    margin-left: 150px;
+} 

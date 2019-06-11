@@ -1,0 +1,21 @@
+ 
+.item1{
+    border:2px solid;
+    padding: 20px; 
+    border-color:black;
+    margin-left: 450px;
+    margin-right: 450px;
+    background: gray;
+
+}
+.item2{
+    background-color:blue;
+    width: 290px;
+}
+input{
+  padding: 15px;
+  width: 190px;
+}
+label{
+    font-size: 15px;
+} 
