@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './Login.css';
-
+// import logo from './logo.svg';
+import './Signup.css';
 function Login() {
   return (
     <div><br/><br/>
@@ -15,7 +14,7 @@ function Login() {
           <p>Forgot my password?</p>
       </form>
       </div>
-      <div className="account">Don't have an account?<a href="Signin.js">Login</a></div>
+      <div className="account">Don't have an account?<a href="Signup.js">Signup</a></div>
     </div>
   );
 }

@@ -7,18 +7,31 @@ class LifecycleA extends Component {
         this.state={
             name:'vindya'
         }
-        console.log('LifecycleA constructor')
+        console.log('LifecycleA intilization')
     }
     componentDidMount(){
         console.log('LifecycleA component Didmount')
-    }
-    render(){
-        console.log('Lifecyclerender')
-        // <div>LifecycleA</div> 
-    }
+    };
     componentWillMount(){
-        console.log('LifecycleA component Didmount')
-    }
+        console.log('LifecycleA component WillMount')
+    };
+    render(){
+        return(
+            <div><br/><br/>
+      <div className="item"> 
+
+      <label className="sign">LOGIN</label><br/><br/>
+      <form>
+          <input type="text"  name="name" placeholder="email Address"></input><br/><br/>
+          <input type="text"  name="name" placeholder="password"></input><br/><br/>
+          <input type="button" value="Login" name="Login" className="login"></input>
+          <p>Forgot my password?</p>
+      </form>
+      </div>
+      <div className="account">Don't have an account?<a href="Signin.js">Login</a></div>
+    </div>
+  );
+}
 }
 
 export default LifecycleA;
